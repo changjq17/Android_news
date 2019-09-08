@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <skin.support.widget.SkinCompatToolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:id="@+id/page_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="文章标题"
+            android:textSize="25sp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/details_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="作者名称"
+                />
+
+            <TextView
+                android:id="@+id/details_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="发布时间"
+                />
+        </RelativeLayout>
+
+        <!--文章内容-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_text_image"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/wrap_video">
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </RelativeLayout>
+        <!--推荐部分-->
+        <TextView
+            android:id="@+id/recommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="推荐内容"
+            android:textSize="25sp"/>
+
+        <com.java.changjiaqing.recommend.MyListView
+            android:id="@+id/recommend_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

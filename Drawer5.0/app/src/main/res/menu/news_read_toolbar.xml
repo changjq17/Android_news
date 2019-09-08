@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/return_1"
+        android:icon="@drawable/ic_arrow_back_white_24dp"
+        android:title="返回"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="清空列表"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+</menu>

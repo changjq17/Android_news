@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.chanven.lib.cptr.PtrClassicFrameLayout
+        android:id="@+id/test_list_view_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ptr_resistance="1.7"
+        app:ptr_ratio_of_header_height_to_refresh="1.2"
+        app:ptr_duration_to_close="200"
+        app:ptr_duration_to_close_header="1000"
+        app:ptr_keep_header_when_refresh="true"
+        app:ptr_pull_to_fresh="false">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/news_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.chanven.lib.cptr.PtrClassicFrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

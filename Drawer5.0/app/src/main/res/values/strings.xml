@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">常佳庆计泽坤_News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">清华新闻</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">回到首页</string>
+    <string name="menu_collection">收藏列表</string>
+    <string name="menu_category">分类管理</string>
+    <string name="menu_darkmode">夜间模式</string>
+    <string name="menu_layout">主题风格</string>
+    <string name="menu_about">关于软件</string>
+</resources>

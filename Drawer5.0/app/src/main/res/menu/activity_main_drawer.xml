@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="@string/menu_collection" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="@string/menu_category" />
+        <item
+            android:id="@+id/nav_blacklist"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="历史记录" />
+        <item
+            android:id="@+id/nav_darkmode"
+            android:icon="@drawable/ic_brightness_3_black_24dp"
+            android:title="@string/menu_darkmode" />
+        <item
+            android:id="@+id/nav_layout"
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:title="@string/menu_layout" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_share"
+            android:title="搜索历史" />
+    </group>
+
+</menu>

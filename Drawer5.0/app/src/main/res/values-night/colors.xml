@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c1c1c</color>
+    <color name="colorPrimaryDark">#1c1c1c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tabbackcolor">#1c1c1c</color>
+    <color name="tabtextcolor">#ffffff</color>
+    <color name="subscribe_item_drag_stroke">#000000</color>
+    <color name="subscribe_item_drag_bg">#000000</color>
+    <color name="subscribe_item_selected_stroke">#000000</color>
+    <color name="subscribe_item_selected_bg">#000000</color>
+    <color name="subscribe_item_disabled_stroke">#000000</color>
+    <color name="subscribe_item_disabled_bg">#000000</color>
+    <color name="subscribe_item_pressed_stroke">#000000</color>
+    <color name="subscribe_item_pressed_bg">#000000</color>
+    <color name="subscribe_item_normal_stroke">#000000</color>
+    <color name="subscribe_item_normal_bg">#000000</color>
+    <color name="subscribe_item_text_color">#ffffff</color>
+</resources>
